@@ -9,7 +9,7 @@ const transformStream = JSONStream.stringify()
 
 let totalRegistros = 0;
 
-wstream.on('open', (fd) => {
+wstream.on('open', () => {
     console.info('Iniciando a geração de %d registros falsos...', args.n)
 })
 
