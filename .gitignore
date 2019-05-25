@@ -1,2 +1,16 @@
+# Dependency directories
 node_modules/
-arquivo-gerado.json
+
+# Files
+*.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
